@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黃冠傑的數學攻略 | 從盲點到滿分的思維革命</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- KaTeX 數學公式支援 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- 頂部導覽列 -->
+    <header class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="font-bold text-lg text-slate-900 tracking-tight">黃冠傑數學思維空間</a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+                <a href="#story" class="hover:text-blue-600 transition">關於我與心路歷程</a>
+                <a href="#method" class="hover:text-blue-600 transition">獨家解題三步驟</a>
+                <a href="#products" class="hover:text-blue-600 transition">課程與教材</a>
+                <a href="#tutoring" class="hover:text-blue-600 transition">一對一 / 團班家教</a>
+                <a href="#downloads" class="hover:text-blue-600 transition">免費題庫專區</a>
+            </nav>
+            <a href="#products" class="bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-blue-700 transition shadow-sm">立即選購教材</a>
+        </div>
+    </header>
+
+    <!-- Hero 區塊 -->
+    <section class="max-w-6xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <span class="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">高醫牙醫系學長親自授課</span>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-6 leading-tight">
+                數學不是背出來的<br>是<span class="text-blue-600">想通</span>出來的。
+            </h1>
+            <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                我是黃冠傑。曾經也對數學感到茫然與挫折，直到我掌握了核心底層邏輯。113學測數A以 15 級分（原始成績 98 分）證明：只要用對方法，任何人都能從看不懂數學，走向理解並愛上數學。
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="#products" class="bg-blue-600 text-white font-medium px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition">瀏覽線上課程與考卷</a>
+                <a href="#tutoring" class="bg-white border border-slate-300 font-medium px-6 py-3 rounded-xl shadow-sm hover:bg-slate-50 transition text-slate-700">預約家教諮詢</a>
+            </div>
+        </div>
+        <div class="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-3xl p-8 text-white shadow-xl relative overflow-hidden">
+            <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-white/10 rounded-full blur-2xl"></div>
+            <h3 class="text-xl font-bold mb-4 border-b border-white/20 pb-2">學霸戰績與背景</h3>
+            <ul class="space-y-4 text-white/90 text-sm md:text-base">
+                <li class="flex items-start">
+                    <span class="mr-2">🎓</span> <span>現就讀於高雄醫學大學牙醫系</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="mr-2">🔥</span> <span>113學測數A 15級分（原始成績 98 分）</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="mr-2">💡</span> <span>擅長將繁雜公式化繁為簡，建立直覺式解題思維</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="mr-2">📚</span> <span>獨家編纂「左右並排影音講義」與大考模擬試題</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 心路歷程與轉變 -->
+    <section id="story" class="bg-white py-20 border-y border-slate-200">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-3">從「看不懂」到「愛上數學」的心路歷程</h2>
+                <p class="text-slate-600">我走過的路，就是你打破數學盲點的捷徑。</p>
+            </div>
+            <div class="space-y-8 text-slate-700 leading-relaxed text-lg">
+                <p>
+                    坦白說，我在國高中也經歷過死背公式卻在考試時崩潰的階段。看到題目寫著密密麻麻的算式，腦中一片空白，甚至一度懷疑自己是不是沒有數理天份。
+                </p>
+                <p>
+                    直到高二、高三的某個轉折點，我突然意識到：<strong>數學不是用來背的，而是一套描述宇宙規律的語言。</strong>當我不再去背題型，而是去追問「為什麼這個公式會這樣生出來？」、「這兩個看似無關的單元背後藏著什麼樣的幾何對稱？」時，世界完全變了。
+                </p>
+                <p>
+                    解開一道難題不再是折磨，而像是在玩一場解謎遊戲。這種「看透本質」的快感，讓我徹底愛上了數學。而這份從迷茫到頓悟的經驗，讓我最能懂學生在哪裡卡關、哪裡想不透。這也是我創立這套教學系統的初衷——帶你用最直覺、最省力的方式，拿下大考高分。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 獨家解題三步驟 -->
+    <section id="method" class="max-w-6xl mx-auto px-6 py-20">
+        <div class="text-center mb-16">
+            <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Core Method</span>
+            <h2 class="text-3xl font-bold text-slate-900 mt-1">黃冠傑獨家解題三步驟</h2>
+            <p class="text-slate-600 mt-2">面對任何壓軸題，只要照著這個節奏，就不會慌亂。</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 relative">
+                <div class="text-4xl font-black text-blue-600/20 absolute top-6 right-6">01</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">步驟一：解構題意與對稱觀察</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    先別急著動筆計算！冷靜觀察題目給的係數、幾何圖形或代數對稱性。判斷它是二項式展開、向量旋轉，還是極值幾何，抓出核心本質。
+                </p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 relative">
+                <div class="text-4xl font-black text-blue-600/20 absolute top-6 right-6">02</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">步驟二：和差轉換與工具選用</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    避開盲目硬幹的高次方程泥沼。利用代數和差、配方法或圖形幾何意義，將複雜式子化為最簡架構，讓計算量降到最低。
+                </p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 relative">
+                <div class="text-4xl font-black text-blue-600/20 absolute top-6 right-6">03</div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">步驟三：全真檢驗與觀念收斂</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    算出答案後，回頭檢驗邊界條件與合理性。確保這個觀念已被徹底吸收，內化成自己面對大考時的肌肉記憶。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 課程與教材購買區 -->
+    <section id="products" class="bg-slate-900 text-white py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-blue-400 font-semibold text-sm uppercase tracking-wider">Products & Resources</span>
+                <h2 class="text-3xl font-bold mt-1">線上課程與自編模擬考題</h2>
+                <p class="text-slate-400 mt-2">最強學霸視角，帶你直擊大考核心命題趨勢。</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- 線上課程 -->
+                <div class="bg-slate-800 border border-slate-700 p-8 rounded-3xl flex flex-col justify-between">
+                    <div>
+                        <span class="bg-blue-500/20 text-blue-300 text-xs font-semibold px-3 py-1 rounded-full">核心熱賣</span>
+                        <h3 class="text-2xl font-bold mt-4 mb-2">高中數學學測總複習線上課程</h3>
+                        <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+                            包含全系列 13 單元 + 4 次總複習。搭配獨家「左右並排影音 QR Code 講義」，讓你隨時隨地針對弱點觀看觀念拆解。
+                        </p>
+                        <ul class="space-y-2 text-sm text-slate-300 mb-8">
+                            <li>✓ 完整觀念推導與秒殺解題技巧</li>
+                            <li>✓ 獨家影音專區支援，自主學習無死角</li>
+                            <li>✓ 歷屆大考高頻陷阱題深度剖析</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="bg-blue-600 text-white font-medium text-center py-3 rounded-xl hover:bg-blue-500 transition shadow">立即購買線上課程</a>
+                </div>
+                <!-- 自編模擬考題 -->
+                <div class="bg-slate-800 border border-slate-700 p-8 rounded-3xl flex flex-col justify-between">
+                    <div>
+                        <span class="bg-amber-500/20 text-amber-300 text-xs font-semibold px-3 py-1 rounded-full">高擬真題本</span>
+                        <h3 class="text-2xl font-bold mt-4 mb-2">高醫牙醫學長監製：學測模擬試題（共兩回）</h3>
+                        <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+                            嚴格對標大考中心最新命題趨勢與題型比例（含單選、多選、選填與混合題），訓練考場節奏與抗壓性的終極武器。
+                        </p>
+                        <ul class="space-y-2 text-sm text-slate-300 mb-8">
+                            <li>✓ 完美對應 108 課綱最新素養與混合題型</li>
+                            <li>✓ 附贈詳細解析與解題思維導引</li>
+                            <li>✓ 考前衝刺、建立手感的必備神兵</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="bg-white text-slate-900 font-medium text-center py-3 rounded-xl hover:bg-slate-100 transition shadow">選購自編模擬試題</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 一對一與團班家教報名 -->
+    <section id="tutoring" class="max-w-6xl mx-auto px-6 py-20">
+        <div class="bg-blue-50 border border-blue-100 rounded-3xl p-8 md:p-12 grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <span class="text-blue-600 font-semibold text-sm">TUTORING SERVICE</span>
+                <h2 class="text-3xl font-bold text-slate-900 mt-2 mb-4">一對一家教與精緻團班報名</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    如果你希望有針對個人盲點的客製化指導，或是想跟戰友一起衝刺數學，歡迎了解一對一家教與小班制團班名額。名額有限，額滿為止。
+                </p>
+                <div class="space-y-3 text-slate-700 text-sm font-medium mb-8">
+                    <div class="flex items-center">✅ <strong>一對一家教</strong>：精準診斷盲點，量身打造複習進度。</div>
+                    <div class="flex items-center">✅ <strong>精緻團班</strong>：高效率同儕氛圍，觀念碰撞與題型特訓。</div>
+                </div>
+                <a href="#contact" class="inline-block bg-blue-600 text-white font-medium px-8 py-3 rounded-xl shadow hover:bg-blue-700 transition">填寫表單諮詢報名</a>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-blue-100">
+                <h3 class="font-bold text-lg text-slate-900 mb-4">預約諮詢注意事項</h3>
+                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                    為確保教學品質，每位學員在正式開課前皆需經過簡單的學習狀況評估。點擊右方按鈕即可填寫您的需求與聯絡方式，我將親自與您聯繫。
+                </p>
+                <div class="p-4 bg-slate-50 rounded-xl text-xs text-slate-500">
+                    💡 提示：高三學測衝刺期名額競爭較為激烈，建議提早預約卡位！
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 免費題庫下載專區 -->
+    <section id="downloads" class="bg-white py-20 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Free Resources</span>
+                <h2 class="text-3xl font-bold text-slate-900 mt-1">免費題庫與歷屆試題下載</h2>
+                <p class="text-slate-600 mt-2">提供歷屆學測考題與精選模擬題，供同學自主練習。</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 flex justify-between items-center">
+                    <div>
+                        <h4 class="font-bold text-slate-900 mb-1">近年學科能力測驗（學測）數學考題</h4>
+                        <p class="text-xs text-slate-500">包含數A、數B歷屆試題與官方參考答案</p>
+                    </div>
+                    <a href="#" onclick="alert('檔案準備中，敬請期待！')" class="bg-white border border-slate-300 text-slate-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-slate-100 transition">點擊下載</a>
+                </div>
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 flex justify-between items-center">
+                    <div>
+                        <h4 class="font-bold text-slate-900 mb-1">精選跨單元綜合模擬題本</h4>
+                        <p class="text-xs text-slate-500">學長精選高頻考點練習題（含解析）</p>
+                    </div>
+                    <a href="#" onclick="alert('檔案準備中，敬請期待！')" class="bg-white border border-slate-300 text-slate-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-slate-100 transition">點擊下載</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡與表單區塊 -->
+    <section id="contact" class="bg-slate-100 py-20 border-t border-slate-200">
+        <div class="max-w-2xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">準備好突破數學盲點了嗎？</h2>
+            <p class="text-slate-600 mb-8">無論是購買線上課程、自編考題，或是預約家教諮詢，歡迎隨時與我聯繫！</p>
+            <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 text-left">
+                <form onsubmit="event.preventDefault(); alert('表單送出成功！學長會盡快與您聯繫。');" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">您的姓名 / 稱呼</label>
+                        <input type="text" required class="w-full px-4 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="例如：林同學 / 林媽媽">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">聯絡信箱或電話</label>
+                        <input type="text" required class="w-full px-4 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="請輸入 Email 或 手機號碼">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">諮詢項目</label>
+                        <select class="w-full px-4 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option>購買線上課程</option>
+                            <option>購買自編模擬考題</option>
+                            <option>預約一對一家教 / 團班</option>
+                            <option>其他合作與詢問</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">想對學長說的話或需求</label>
+                        <textarea rows="3" class="w-full px-4 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="例如：目前高二，對空間向量比較罩不住..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white font-medium py-3 rounded-xl hover:bg-blue-700 transition shadow">送出諮詢表單</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="bg-white border-t border-slate-200 py-8 text-center text-sm text-slate-500">
+        <p>&copy; 2026 黃冠傑數學思維空間. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
